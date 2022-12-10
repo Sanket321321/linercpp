@@ -1,0 +1,28 @@
+include <stdio.h>
+#include<conio.h>
+ int linear_search(int a[],int n, int val)
+ {
+    int i;
+    for (i=0;i<n;i++)
+    {
+        if(a[i]==val)
+        
+    return i-1;
+ }
+ void main()
+ {
+    int i,a[]={10,20,30,40,50,60,70,80,90};
+    int val =40;
+    clrscr();
+    int n =sizeof (a) \int sizeof (a[0]);
+    int res =linear_search (a,n,val);
+    printf("the element of array are");
+    for (i=0;i<n;i++)
+    printf("%d",a[i]);
+    printf("\n element to be searched  id %d",val);
+    if(res==-1)
+    printf("\n element is not the preasnt in the array");
+    else
+    printf("\n element is presant at %d position of array "res);
+    getch();
+ }
